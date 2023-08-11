@@ -3,10 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/dist/output.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Plus Jakarta Sans" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet" />
+
+    <style>
+      .hero-background {
+        background-image: url(https://uploads-ssl.webflow.com/63ca2acc6352c221abe583d0/64b61245caee62e2e74575b7_hero-background.png), radial-gradient(circle, #fff, rgba(255, 255, 255, 0) 100%, rgba(255, 255, 255, 0)),
+          url(https://uploads-ssl.webflow.com/63ca2acc6352c221abe583d0/64171d795aac65d09591f6b9_Grid%20Background-%20Section%201.svg);
+        background-position: 50% 100%, 0 0, 0 0;
+        background-repeat: no-repeat, repeat, repeat;
+        background-size: contain, auto, auto;
+      }
+    </style>
   </head>
   <body class="font-['Plus_Jakarta_Sans']">
     <div class="navbar flex justify-between items-center bg-white px-[4.5rem] w-full h-20 font-semibold text-base border-b border-b-[#ececec] fixed top-0">
